@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <title>Registration Form</title>
+</head>
+<body>
+
+    <h2>Student Registration Form</h2>
+
+    <form> 
+        <!-- Text input for Name -->
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="student_name"><br><br>
+
+        <!-- Email input (validates email structure automatically) -->
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="student_email"><br><br>
+
+        <!-- Tel input for phone numbers -->
+        <label for="phone">Phone:</label><br>
+        <input type="tel" id="phone" name="student_phone"><br><br>
+
+        <!-- Radio buttons for Gender (sharing the same 'name' ensures only one can be selected) -->
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+        
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+        <br><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Register">
+    </form>
+
+</body>
+</html>
